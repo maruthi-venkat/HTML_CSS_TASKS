@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+    width:auto;
+    height:auto;
+    position:fixed;
+    top:5%;
+    
+}
+
+.container>:hover{
+    left:0;
+    
+}
+
+
+.green,.blue,.red,.black{
+    width:90px;
+    height:55px;
+    left:-40px;
+    position:absolute;
+    border-radius:0px 5px 5px 0px;
+    transition:left 0.7s;
+}
+
+.green{
+    background-color:#05a96c;
+    left:-35px;
+}
+
+.blue{
+    background-color:#2096f2;
+    top: 65px;
+}
+
+.red{
+    background-color:#f44236;
+    top:130px;
+}
+
+.black{
+    background-color:#545455;
+    top:195px;
+}

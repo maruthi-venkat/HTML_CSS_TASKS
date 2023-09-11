@@ -1,0 +1,20 @@
+table{
+    width:80%;
+    height:50vh;
+    margin-inline:auto;
+    border:0.5px solid lightgrey;
+    font-family:arial;
+    font-weight:600;
+    color:#333333e3;
+}
+
+td{
+    padding:10px;
+}
+.green{
+    background-color:#05a96c;
+    color:#fff;
+}
+tr:nth-child(even){
+    background-color:#e9e9ea;
+}

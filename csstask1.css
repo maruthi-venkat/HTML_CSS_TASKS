@@ -1,0 +1,44 @@
+#table1{
+    border-radius:10px;
+    margin-inline:auto;
+}
+
+#table1 th,#table1 td{
+    border-radius:15px;
+}
+
+#table2{
+    margin-top:2rem;
+    margin-inline:auto;
+}
+#table2 td{
+    
+    border:5px solid #99ca31;
+}
+#r1c1{
+    border-radius:10px;
+}
+#r1c2{
+    border-radius:20px;
+}
+#r1c3{
+    border-radius:30px;
+}
+#r2c1{
+    border-radius:20px;
+}
+#r2c2{
+    border-radius:5px;
+}
+#r2c3{
+    border-radius:30px;
+}
+#r3c1{
+    border-radius:50%;
+}
+#r3c2{
+    border-radius:5px;
+}
+#r3c3{
+    border-radius:5px 30px 20px 40px;
+}

@@ -1,0 +1,47 @@
+body{
+    font-size: 2rem;
+}
+
+#htmltable{
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+}
+
+#csstasks{
+    position: absolute;
+    top:8rem;
+    right:8rem;
+    border-radius: 25px;
+    background-color: rgb(251,210,156);
+    border: 1px solid #333;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#csstasks th, #csstasks td{
+    border: 1px solid #333; 
+}
+
+#csstasks #first th:first-child{
+    border-radius: 25px 25px 0px 0px;
+}
+
+#last1{
+    border-radius: 0px 0px 0px 25px;
+}
+#last2{
+    border-radius: 0px 0px 25px 0px;
+}
+#csstasks td{
+    text-align: center;
+
+}
+#csstasks a:any-link{
+    color: #333;
+}
+#csstasks a:hover,#csstasks a:focus{
+    color: hsla(0, 0%, 20%, 0.8);
+}
+#csstasks a:active{
+    color: #fff;
+}

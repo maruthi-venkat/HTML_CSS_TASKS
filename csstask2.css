@@ -1,0 +1,57 @@
+div{
+    display:inline-block;
+}
+#div1 table{
+    width:300px;
+    height:300px;
+}
+
+td{
+    padding-left:1.5rem;
+}
+.orange{
+    font-size:1.75rem;
+    background-color:rgb(255, 166, 0);
+    color:#fff;
+}
+
+.blue{
+    font-size:1.75rem;
+    
+    background-color:rgba(135, 207, 235, 0.850);
+    color:#00f;
+    
+}
+
+a, a:visited{
+    color:#00f;
+    text-decoration:none;
+}
+
+.darkgray{
+    background-color:rgb(103, 103, 103);
+    color:#fff;
+}
+
+.lightgray{
+    background-color:rgb(222, 222, 222);
+    color:#00f;
+}
+
+#div2 table{
+    position:absolute;
+    top:0;
+    right:0;
+    height:50px;
+    width:500px;
+}
+
+#div2 td{
+    border-right:1px solid #00f;
+    font-size:1.5rem;
+    padding:0;
+    text-align:center;
+    width:80px;
+}
+
+
